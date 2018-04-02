@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libuv" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler__w64-32_" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Debug/uv" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gnu_gcc_compiler__w64-32_" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Release/uv" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gnu_gcc_compiler__w64-32_" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-D_WIN32_WINNT=0x0501" />
+			<Add option="-DMAPVK_VK_TO_VSC=0x0" />
+			<Add option="-DVOLUME_NAME_DOS=0x0" />
+			<Add option="-DWIN32_LEAN_AND_MEAN" />
+			<Add directory="libuv-1.x/src" />
+			<Add directory="libuv-1.x/src/win" />
+			<Add directory="libuv-1.x/include" />
+		</Compiler>
+		<Unit filename="libuv-1.x/src/fs-poll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/inet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/threadpool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/uv-common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/async.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/detect-wakeup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/dl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/fs-event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/fs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/getaddrinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/getnameinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/handle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/loop-watcher.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/pipe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/poll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/process-stdio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/process.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/req.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/snprintf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/tcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/tty.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/udp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/winapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libuv-1.x/src/win/winsock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="libuv_socket">
+		<Project filename="libuv_socket_client/libuv_socket_client.cbp" />
+		<Project filename="libuv_socket_server/libuv_socket_server.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

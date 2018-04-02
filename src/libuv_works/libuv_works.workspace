@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="libuv_testdemo/libuv_testdemo.cbp" />
+		<Project filename="libuv_sock5-proxy/libuv_sock5-proxy.cbp" />
+		<Project filename="libuv/libuv.cbp" />
+		<Project filename="libuv_tcpsock/libuv_tcpsock.cbp" />
+		<Project filename="../../libuv_socket/libuv_socket.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
